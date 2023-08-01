@@ -1,3 +1,11 @@
+A interface deste projeto foi realizada pensando em usuários do iFood que, para finalizar seu pedido, devem inserir e validar seu cartão com a finalidade de concluir a compra. 
+
+Para validar o cartão os usuários devem preencher o campo "Número de identificação do cartão" e imediatamente visualizarão uma atualização no formulário acima, o qual apresentará o número digitado mascarado com excessão dos últimos 4 dígitos e o resultado da validação, se o cartão informado é válido ou não.
+
+Para acessar a página e realizar validação visite este link: 
+
+
+
 # Cartão de Crédito Válido
 
 ## Índice

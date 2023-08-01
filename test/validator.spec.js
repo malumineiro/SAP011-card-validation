@@ -1,4 +1,9 @@
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
+
+// este arquivo contem alguns testes de exemplo e aqui você deve implementar os testes para validator.isValid() e validator.maskify().
+
+
+
 import validator from '../src/validator';
 
 describe('validator', () => {

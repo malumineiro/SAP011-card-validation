@@ -2,13 +2,68 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Card Validation</title>
+    <link rel="stylesheet" href="style.css" /><link>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    
+    <main>
+
+      <div class="card2 res-title" id="result">
+        <img src="https://arredondar.org.br/wp-content/uploads/2021/08/iFood-Logo-site.png" alt="">
+        <h1>Pagamento iFood</h1>
+        <p>Para realizar o pagamento do pedido será necessário validar seu <br>
+          cartão. Por gentileza, preencha o campo abaixo com o número <br>
+          de identificação do cartão com o qual você deseja efetuar a compra:</p></div>
+    <br>
+
+      <div class="card">
+        <form id="form">
+            <h1 class="card_title">
+                Card Validation </h1>
+            <div class="card_row">
+                <div class="card_col">
+                    <label for="cardNumber" class="card_label">Número de identificação do cartão:</label>
+                    <input type="text" class="card_input card_input--large" id="cardNumber" placeholder="0000-0000-0000-0000" minlength="13" maxlength="16" pattern="\d+" required/>
+                </div>
+                <div class="card_col card_chip"><img src="https://blenderartists.org/uploads/default/original/4X/0/3/8/038b44e8de52d9963cf27c319c3ff43aadb0dcfe.jpeg"  alt="chip"></div>
+            </div>
+
+            <div class="card_row">
+            <div class="card_col">
+                <label for="cardExpiry" class="card_label">Data de validade:</label>
+                <input type="text" class="card_input" id="cardExpiry" placeholder="00/00"  maxlength="5">
+            </div>
+            <div class="card_col">
+                <label for="cardCvv" class="card_label">CVV:</label>
+                <input type="text" class="card_input" id="cardCvv" placeholder="000" pattern="\d+" maxlength="3">
+            </div>
+
+            <div class="card_col card_brand">
+                <i id="cardBrand"></i></div>
+            </div> 
+            <div>
+              <button class="bttn" type="submit" onclick="creditCardValidation()">Validar</button>
+          
+            </div> 
+        </form>
+        
+      </div>
+    
+
+    </main>
+    <footer class="footer">
+      <p><a href="https://github.com/malumineiro">©Maria Luiza Mineiro, Laboratoria SAP011</a></p>
+    </footer>
+    
+      <script src="index.js" type="module"></script> 
+
+   
   </body>
 </html>
+
+
+
+
+
+ 
