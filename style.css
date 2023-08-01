@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e10832;
+    background: ;
+    overflow: hidden;
+
+}
+
+
+.card {
+    background: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0.05));
+    background-color: white;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.464);
+    backdrop-filter: blur(0.8rem);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    animation: 2s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
+
+}
+
+.card2 {
+
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.464);
+    backdrop-filter: blur(0.8rem);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    animation: 2s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
+
+}
+
+.res-title {
+    display: block;
+    
+    
+    color: #fff;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.436);
+}
+
+.card_row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.card_title {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:  #e10832;
+    margin: 1rem 0 1.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.402);
+}
+
+.card_col {
+    padding-right: 2rem;
+    
+}
+
+.card_input {
+    background: none;
+    border: none;
+    border-bottom: dashed 0.2rem rgba(0, 0, 0, 0.15);
+    color:  #e10832;;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+.card_input--large {
+    font-size: 1.8em;
+}
+.card_input::placeholder {
+    color:  #e10832;
+    text-shadow: none;
+}
+
+.card_input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+}
+
+.card_label {
+    display: block;
+    color:  #e10832;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.436);
+}
+
+.card_chip {
+    align-self: flex-end;
+    
+}
+.card_chip img {
+    width: 6rem;
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0bd76;
+    font-size: 1em;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.577);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebe2d9;
+    font-size: 1.2em;
+    margin-top: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+       
+
+  }
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.802);
+}
+.footer a {
+    text-decoration:dashed;
+    color: #ebe2d9;
+}  
+.footer a:visited {
+    color: rgba(255, 255, 255, 0.907);
+    color: #ebe2d9;
+}
+
+@keyframes cardEnter {
+    from {
+        transform: translateX(100vh);
+        opacity: 0.05;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
