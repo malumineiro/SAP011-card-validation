@@ -15,7 +15,7 @@
 
 ## 1. Descrição do Projeto
 
-A interface deste projeto foi realizada pensando em usuários do iFood que, para finalizar seu pedido, devem inserir e validar seu cartão com a finalidade de concluir a compra. A validação é feita a partir do [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
+A interface deste projeto foi realizada pensando em usuários do **iFood** que, para finalizar seu pedido, devem inserir e validar seu cartão com a finalidade de concluir a compra. A validação é feita a partir do [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
 chamado de módulo 10, o qual é um método de soma de verificação, usado para validar
 números de identificação, como o IMEI de telefones celulares, cartões de crédito
 etc.
