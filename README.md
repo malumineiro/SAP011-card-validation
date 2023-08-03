@@ -9,6 +9,7 @@
 * [3. Funcionalidades e Demonstração da Aplicação](#3-funcionalidades-e-demonstração-da-aolicação)
 * [4. Acesso ao Projeto](#4-acesso-ao-projeto)
 * [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
+* [6. Desenvolvedora](#6-desenvolvedora)
 
 
 ***
@@ -50,3 +51,7 @@ Para acessar a página e realizar validação visite este link: https://malumine
 ## 5. Tecnologias utilizadas
 
 **HTML, CSS, Web APIs e JavaScript.**
+
+## 6. Desenvolvedora
+
+**Maria Luiza Mineiro** [GitHub](https://github.com/malumineiro) | [LinkedIn](https://www.linkedin.com/in/maria-luiza-mineiro-batista-27897b216)
